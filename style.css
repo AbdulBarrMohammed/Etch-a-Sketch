@@ -1,0 +1,56 @@
+* {
+
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+
+
+
+
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  button {
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+  }
+
+
+
+
+
+  .box {
+     /* Distribute available space evenly among items */
+    /* Customize grid item styles (e.g., borders, background color) */
+
+    border: 1px solid black;
+    }
+
+
+  /* .container>div:nth-child(17n + 1) {
+    width: 100%;
+    border: 0;
+    height: 0;
+  } */
